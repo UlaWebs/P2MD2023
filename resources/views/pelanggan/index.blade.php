@@ -39,20 +39,20 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
+                                            <th>Kode Pelanggan</th>
                                             <th>Nama Pelanggan</th>
                                             <th>Alamat</th>
                                             <th>No Telepon</th>
-                                            <th>Kode Pelanggan</th>
                                             <th>Aksi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         @foreach ($data as $row)
                                         <tr>
+                                            <td>{{ $row->kode_pelanggan }}</td>
                                             <td>{{ $row->nama_pelanggan }}</td>
                                             <td>{{ $row->alamat_pelanggan }}</td>
                                             <td>{{ $row->no_telp_pelanggan }}</td>
-                                            <td>{{ $row->kode_pelanggan }}</td>
                                             <td>
                                                 <a href="{{ route('pelanggan.edit', $row->id_pelanggan) }}" class="btn btn-success btn-circle">
                                                     <i class="fas fa-check"></i>
