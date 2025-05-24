@@ -43,18 +43,18 @@
     <div class="logo-box">
         <a href="{{ route('dashboard') }}" class="logo logo-light text-center">
             <span class="logo-sm">
-                <img src="{{ asset('src/assets/images/logo-black.png') }}" alt="" height="22">
+                <img src="{{ asset('src/assets/images/logo-black2.png') }}" alt="" height="22">
             </span>
             <span class="logo-lg">
-                <img src="{{ asset('src/assets/images/logo-white.png') }}" alt="" height="45">
+                <img src="{{ asset('src/assets/images/logo-white2.png') }}" alt="" height="45">
             </span>
         </a>
         <a href="{{ route('dashboard') }}" class="logo logo-dark text-center">
             <span class="logo-sm">
-                <img src="{{ asset('src/assets/images/logo-black.png') }}" alt="" height="22">
+                <img src="{{ asset('src/assets/images/logo-black2.png') }}" alt="" height="22">
             </span>
             <span class="logo-lg">
-                <img src="{{ asset('src/assets/images/logo-black.png') }}" alt="" height="45">
+                <img src="{{ asset('src/assets/images/logo-black2.png') }}" alt="" height="45">
             </span>
         </a>
     </div>
